@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lima-Chamber Of Commerce" />
+    <title>Lima-Chamber Of Commerce</title>
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/large.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/medium.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/small.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <img id="logo_nav" src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li class="hamburger">
+                <a href="#" onclick="toggleMenu ()">&#9776; Menu</a>
+            </li>
+            <li class="nav-item active">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/ChamberOfCommerce/city.html">Lima</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/join.html">Join</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/directory.html">Directory</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <div class="welcome_grid">
+
+
+            <div class="img_grid">
+                <img src="/ChamberOfCommerce/assets/welcome_imagen.jpg" alt="lima_landscape" />
+            </div>
+            <div class="text_grid">Welcome!</div>
+        </div>
+
+        <div class="aboutus_grid">
+            <div class="aboutus_text">
+                <h2>About us</h2>
+                <img src="/ChamberOfCommerce/assets/aboutus.jpg" alt="central park of lima">
+                <p>In a changing environment and in growing and irreversible globalization,Lima chamber of commerce
+                    today the has one of the
+                    most modern business complexes in the country and has aligned itself with cutting-edge technology
+                    platforms, in line with the requirements of competitiveness and the internationalisation of trade.
+
+                    As "The Chamber of Guilds" the Lima chamber of commerce has more than 15,000 registered companies
+                    from commerce,
+                    production and services, representing 41.1% of the total exported value and 52.3% of the total
+                    imported value, having planned to count on the commemoration of the National Bicentennial in 2021,
+                    with 20,000 associated companies.</p>
+            </div>
+
+            <div class="events_grid">
+                <h2>Upcoming events</h2>
+                <div class="table">
+
+                    <p>✔ Julio 27-29 Fiestas Patrias</p>
+                    <p>✔ Octubre 31 Día de la canción Criolla</p>
+                    <p>✔ Octubre 18-28 Festividad del Señor de los Milagros</p>
+                    <p>✔ Agosto 30 Festividad de Santa Rosa de Lima</p>
+
+
+                </div>
+
+            </div>
+            <div class="joinus_invitation">
+                <a href="/ChamberOfCommerce/join.html"><img src="/ChamberOfCommerce/assets/joinus_home.jpg" alt="joinus"></a>
+            </div>
+        </div>
+        <div class="companies_lima">
+            <h2>Representatives companies in Lima</h2>
+        </div>
+        
+            <div class="companies_grid">
+
+                <div class="hiraoka box">
+                    <div class="box_img">
+                        <img src="/ChamberOfCommerce/assets/hiraoka.jpg" alt="hiraoka">
+                    </div>
+                    <div class="box_text">
+                        <p><strong>Company name:</strong> Hiraoka</p>
+                        <p><strong>Web page:</strong> <a href="https://hiraoka.com.pe//">www.hiraoka.com.pe</a></p>
+                        <p><strong>Phone: </strong>(01) 419 1919</p>
+                    </div>
+                </div>
+                <div class="bembos box">
+                    <div class="box_img">
+                        <img src="/ChamberOfCommerce/assets/BEMBOS.jpg" alt="bembos">
+                    </div>
+                    <div class="box_text">
+                        <p><strong>Company name:</strong> Bembos </p>
+                        <p><strong>Web page:</strong> <a href="https://www.bembos.com.pe/">www.bembos.com.pe</a></p>
+                        <p><strong>Phone:</strong> (01) 680 3800</p>
+                    </div>
+                </div>
+                <div class="mobilbus box">
+                    <div class="box_img">
+                        <img src="/ChamberOfCommerce/assets/mobilbus.jpg" alt="mobilbus">
+                    </div>
+                    <div class="box_text">
+                        <p><strong>Company name:</strong> Mobilbus</p>
+                        <p><strong>Web page:</strong> <a href="https://www.movilbus.pe">www.movilbus.pe</a></p>
+                        <p><strong>Phone:</strong> (01) 716 8000</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="weather_grid">
+
+                <div class="current_weather ">
+                    <h2>Current weather</h2>
+                    <div class="current_weather_text">
+                        <p>Currently: <span id="currently"></span></p>
+                        <p>Temperature: <span id="temperature"></span> F</p>
+                        <p>Humidity: <span id="humidity"></span> %</p>
+                        <p>Wind Speed: <span id="wind_speed"></span> MPH</p>
+                        <p>Wind Chill: <span id="wind_chill"></span> </p>
+                    </div>
+                </div>
+                <div class="forecast_weather ">
+                    <h2>3 Days Forecast</h2>
+
+                    <div class="grid_forecast">
+
+
+                        <div class="subtitle" id="dayofweek1"> </div>
+                        <div class="wheather_img"><img id="imgday1" src="" alt="">
+                            <p id="forecast1"></p>
+                        </div>
+
+
+                        <div class="subtitle" id="dayofweek2"> </div>
+                        <div class="wheather_img"><img id="imgday2" src="" alt="">
+                            <p id="forecast2"></p>
+                        </div>
+
+
+                        <div class="subtitle" id="dayofweek3"> </div>
+                        <div class="wheather_img"><img id="imgday3" src="" alt="">
+                            <p id="forecast3"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo_footer">
+            <img src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+        </div>
+        <div class="vl1"></div>
+        <div class="contact_footer">
+            <h3>Contact</h3>
+            <p>📧 contact@limacommerce.com</p>
+            <p>📍 Avenue San Martin 340 - Lima</p>
+            <p>📞 +51 98765431</p>
+
+
+        </div>
+
+        <div class="vl2"></div>
+
+        <div class="social_icons">
+            <h3>Social Media</h3>
+            <a target="_blank" href="https://www.facebook.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.whatsapp.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/whatsapp.png" alt="whatsapp"></a>
+
+        </div>
+        <p class="info">
+            &copy; <span id="year"></span> | Lima Chamber Of Commerce | Attributions | Leo Meza
+            Mancilla
+        </p>
+        <p class="date">Last updated: <span id="date_time"></span></p>
+
+    </footer>
+
+
+    <script src="/ChamberOfCommerce/js/all.js"></script>
+    <script src="/ChamberOfCommerce/js/home.js"></script>
+
+
+</body>
+
+</html>
