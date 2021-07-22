@@ -1,0 +1,312 @@
+@media screen and (max-width: 742px) {
+
+
+    /* ***********HEADER*************** */
+    
+    #logo_nav {
+
+        max-width: 250px;
+        display: 10%;
+        margin: auto;
+    
+    }
+
+
+
+
+    /* ###################NAV################### */
+    .nav-list li:first-child {
+        display: block;
+
+    }
+
+
+    .nav-list li {
+        display: none;
+    }
+
+    .responsive li {
+
+        display: block;
+
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+
+
+    .box{
+        margin: 1rem;
+    }
+
+
+
+
+
+
+    .text_grid{
+        font-size: 4rem;
+    }
+    
+.aboutus_grid{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.aboutus_text{
+   
+   
+}
+
+.aboutus_text img {
+
+    float: none;
+    max-width: 100%;
+    margin:0;
+    /* max-width: 300px;
+    margin: 0 0 0 10px */
+}
+.events_grid{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.joinus_invitation{
+    display: flex;
+    justify-content: center;
+}
+
+.companies_grid{
+    display: block;
+    max-width: 500px;
+    margin: 1rem auto 1rem auto;
+}
+
+.weather_grid{
+    display: block;
+    max-height: none;
+    
+}
+
+.current_weather {
+    margin: 1rem auto 1rem auto;
+}
+.forecast_weather {
+    margin: 1rem auto 1rem auto;
+    
+}
+
+.grid_forecast{
+    padding: 0;
+    font-size:1rem;
+}
+.wheather_img img{
+    width: 50%;
+}
+/* ********************************footer*********************** */
+
+footer {
+
+    display: block;
+   
+
+}
+
+.icon {
+
+    max-width: 7%;
+    margin: 10px;
+}
+
+
+.date .info {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.date {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+   
+}
+
+.info {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+  
+}
+
+.logo_footer {
+
+    display: none;
+    
+}
+
+.logo_footer img {
+    
+    display: none;
+    
+
+
+
+
+}
+
+.social_icons h3{
+    display: none;
+}
+
+.contact_footer {
+
+    display: none;
+    
+}
+
+.contact_footer h3{
+    margin: 0;
+}
+
+.social_icons {
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.vl1 {
+
+    display: none;
+    
+}
+
+.vl2 {
+
+    display: none;
+    
+}
+
+
+.img_grid{
+    margin: 0;
+}
+
+
+
+/* **************************LIMA*************** */
+
+
+.city_content img{
+    width: 100%;
+}
+
+.city_content h2{
+    text-align: center;
+}
+
+.city_content p{
+
+    margin: 0 1rem 0 1rem;
+}
+
+.lima_grid{
+    display: block;
+}
+
+.lima_text h3{
+    text-align: center;
+
+}
+
+/* ********************join*********** */
+
+.form_join_grid{
+
+    display: block;
+    
+}
+
+.plans_grid{
+    display: block;
+}
+.plans_box{
+    margin: 1rem 0 1rem 0;
+
+}
+
+
+
+
+/* *************************directory************** */
+
+
+.directory_grid{
+
+    grid-template-columns: 1fr;
+    margin: 0 1rem 0 1rem;
+
+}
+
+.directory_list {
+    margin: 0 1rem 0 1rem;
+}
+
+.directory_box_list{
+
+    grid-template-columns:1fr 1fr;
+    background-color: transparent;
+}
+
+
+/* ****************************contact************************* */
+
+.contact_content img{
+    width: 100%;
+}
+
+.form_maps_grid{
+    display: block;
+    margin: 0 1rem 0 1rem;
+}
+.personal_info{
+    padding: 0;
+    margin: 0 1rem 0 1rem;
+}
+
+.form_maps_grid{
+    margin-top: 1rem ;
+}
+
+.googlemap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+iframe {
+    max-width: 300px;
+}
+
+.contactpage_info{
+    padding-bottom: 0;
+}
+.board_grid{
+    display: block;
+}
+
+
+
+
+
+
+
+}

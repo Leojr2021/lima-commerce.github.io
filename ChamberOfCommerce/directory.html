@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lima-Chamber Of Commerce" />
+    <title>Lima-Chamber Of Commerce</title>
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/large.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/medium.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/small.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/adfced3136.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <img id="logo_nav" src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li class="hamburger">
+                <a href="#" onclick="toggleMenu ()">&#9776; Menu</a>
+            </li>
+            <li class="nav-item ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/ChamberOfCommerce/city.html">Lima</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/join.html">Join</a>
+            </li>
+            <li class="nav-item active">
+                <a href="/ChamberOfCommerce/directory.html">Directory</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+
+
+        <div class="directory_content">
+
+            <div class="directory_title">
+                <h2>Companies directory</h2>
+            </div>
+
+
+
+            <div class="links">
+                <ul>
+                    <li data-view="grid-view" class="li-grid active">
+                        <i class="fas fa-th-large"></i>
+                        Grid View</li>
+                    <li data-view="list-view" class="li-list ">
+                        <i class="fas fa-th-list"></i>
+                        List View</li>
+
+                </ul>
+            </div>
+
+            <div class="directory_grid directory_view">
+
+                <div class="directory_hiraoka directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img1" src="" alt="hiraoka">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name1"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://hiraoka.com.pe//"><span id="web1"></span></a></p>
+                        <p><strong>Phone: </strong><span id="phone1"></span></p>
+                    </div>
+                </div>
+                <div class="directory_bembos directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img2" src="" alt="bembos">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name2"></span> </p>
+                        <p><strong>Web page:</strong> <a href="https://www.bembos.com.pe/"><span id="web2"></span></a>
+                        </p>
+                        <p><strong>Phone:</strong> <span id="phone2"></span></p>
+                    </div>
+                </div>
+                <div class="directory_mobilbus directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img3" src="" alt="mobilbus">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name3"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.movilbus.pe"><span id="web3"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone3"></span></p>
+                    </div>
+                </div>
+                <div class="directory_corralito directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img4" src="" alt="corralito">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name4"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.corralito.pe"><span id="web4"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone4"></span></p>
+                    </div>
+                </div>
+                <div class="directory_incasur directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img5" src="" alt="incasur">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name5"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.incasur.pe"><span id="web5"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone5"></span></p>
+                    </div>
+                </div>
+                <div class="directory_colareal directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img6" src="" alt="kolareal">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name6"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.ajegroup.pe"><span id="web6"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone6"></span></p>
+                    </div>
+                </div>
+                <div class="directory_plazavea directory_box">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_img7" src="" alt="plazavea">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name7"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.spsa.pe"><span id="web7"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone7"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ***********************list********** -->
+
+            <div class="directory_list directory_view">
+
+                <div class="directory_hiraoka directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img1" src="" alt="hiraoka">
+                    </div>
+                    <div class="directory_box_text ">
+                        <p><strong>Company name:</strong> <span id="name_list1"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://hiraoka.com.pe//"><span
+                                    id="web_list1"></span></a></p>
+                        <p><strong>Phone: </strong><span id="phone_list1"></span></p>
+                    </div>
+                </div>
+                <div class="directory_bembos directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img2" src="" alt="bembos">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list2"></span> </p>
+                        <p><strong>Web page:</strong> <a href="https://www.bembos.com.pe/"><span
+                                    id="web_list2"></span></a>
+                        </p>
+                        <p><strong>Phone:</strong> <span id="phone_list2"></span></p>
+                    </div>
+                </div>
+                <div class="directory_mobilbus directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img3" src="" alt="mobilbus">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list3"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.movilbus.pe"><span id="web_list3"></span></a>
+                        </p>
+                        <p><strong>Phone:</strong> <span id="phone_list3"></span></p>
+                    </div>
+                </div>
+                <div class="directory_corralito directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img4" src="" alt="corralito">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list4"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.corralito.pe"><span
+                                    id="web_list4"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone_list4"></span></p>
+                    </div>
+                </div>
+                <div class="directory_incasur directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img5" src="" alt="incasur">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list5"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.incasur.pe"><span id="web_list5"></span></a>
+                        </p>
+                        <p><strong>Phone:</strong> <span id="phone_list5"></span></p>
+                    </div>
+                </div>
+                <div class="directory_colareal directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img6" src="" alt="kolareal">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list6"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.ajegroup.pe"><span id="web_list6"></span></a>
+                        </p>
+                        <p><strong>Phone:</strong> <span id="phone_list6"></span></p>
+                    </div>
+                </div>
+                <div class="directory_plazavea directory_box_list">
+                    <div class="directory_box_img">
+                        <img class="directory_box_img_size" id="dir_list_img7" src="" alt="plazavea">
+                    </div>
+                    <div class="directory_box_text">
+                        <p><strong>Company name:</strong> <span id="name_list7"></span></p>
+                        <p><strong>Web page:</strong> <a href="https://www.spsa.pe"><span id="web_list7"></span></a></p>
+                        <p><strong>Phone:</strong> <span id="phone_list7"></span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo_footer">
+            <img src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+        </div>
+        <div class="vl1"></div>
+        <div class="contact_footer">
+            <h3>Contact</h3>
+            <p>📧 contact@limacommerce.com</p>
+            <p>📍 Avenue San Martin 340 - Lima</p>
+            <p>📞 +51 98765431</p>
+
+
+        </div>
+
+        <div class="vl2"></div>
+
+        <div class="social_icons">
+            <h3>Social Media</h3>
+            <a target="_blank" href="https://www.facebook.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.whatsapp.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/whatsapp.png" alt="whatsapp"></a>
+
+        </div>
+        <p class="info">
+            &copy; <span id="year"></span> | Lima Chamber Of Commerce | Attributions | Leo Meza
+            Mancilla
+        </p>
+        <p class="date">Last updated: <span id="date_time"></span></p>
+
+    </footer>
+
+
+    <script src="/ChamberOfCommerce/js/all.js"></script>
+    <script src="/ChamberOfCommerce/js/directory.js"></script>
+
+
+</body>
+
+</html>

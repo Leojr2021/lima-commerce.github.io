@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lima-Chamber Of Commerce" />
+    <title>Lima-Chamber Of Commerce</title>
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/large.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/medium.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/small.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <img id="logo_nav" src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li class="hamburger">
+                <a href="#" onclick="toggleMenu ()">&#9776; Menu</a>
+            </li>
+            <li class="nav-item ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/ChamberOfCommerce/city.html">Lima</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/join.html">Join</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/directory.html">Directory</a>
+            </li>
+            <li class="nav-item active">
+                <a href="/ChamberOfCommerce/contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="contact_content">
+
+
+            <img src="/ChamberOfCommerce/assets/contactus.jpg" alt="contactus">
+            <div class="form_maps_grid">
+
+                <div class="contact_form">
+                    <form action="_self">
+                        <div class="personal_info">
+
+                            <h3>Your Information</h3>
+
+
+                            <label for="fname">Full Name</label><br>
+                            <input id="fname" type="text" name="fname" required="required" minlength="5"
+                                pattern="[A-Za-z]{5,}" placeholder="Full Name">
+                            <br>
+
+                            <label for="email">Email</label><br>
+                            <input id="email" type="email" name="email" required="required"
+                                placeholder="example@domain.com">
+                            <br>
+
+                            <label for="telephone">Phone</label><br>
+                            <input id="telephone" type="tel" name="telephone" required="required"
+                                placeholder="Phone Number">
+                            <br>
+
+                            <label for="additionalInfo">Please leave us a comment </label><br>
+                            <textarea id="additionalInfo" name="additionalInfo"
+                                placeholder="Your comments goes here..."></textarea>
+
+                        </div>
+
+                        <div class="button_submit">
+
+                            <input id="submit" class="submitButton" type="submit" name="submit" value="Contact us">
+                        </div>
+                    </form>
+                </div>
+                <div class="contact_right">
+                    <div class="contactpage_info">
+                        <h3>Contact</h3>
+                        <p>📧 contact@limacommerce.com</p>
+                        <p>📍 Avenue San Martin 340 - Lima</p>
+                        <p>📞 +51 98765431</p>
+                    </div>
+                    <div class="googlemap">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.8719932890297!2d-77.04522819198016!3d-12.061127797864422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c2d9cb9417%3A0xe6b9280dd9abe4b8!2zVXJiIEJyZcOxYSwgQnJlw7Fh!5e0!3m2!1ses!2spe!4v1615695696313!5m2!1ses!2spe"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="board_title"><h2>  Our Board of Directors</h2></div>
+               
+            <div class="board_flex">
+                
+                <div class="board_grid">
+                    <div class="members">
+                        <div class="member_photo_box">
+                            <img class="member_photo" src="/ChamberOfCommerce/assets/board member/Eduardo.jpg" alt="">
+                        </div>
+                        <div class="member_info">
+                            <h3>Eduardo Alfredo Guevara Dodds</h3>
+                            <p>Chairman of the Board</p>
+                        </div>
+
+                    </div>
+
+                    <div class="members">
+                        <div class="member_photo_box">
+                            <img class="member_photo" src="/ChamberOfCommerce/assets/board member/Hernan.jpg" alt="">
+                        </div>
+                        <div class="member_info">
+                            <h3>Hernán Barros Cruchaga</h3>
+                            <p>Vice Chairman of the Board </p>
+                        </div>
+
+                    </div>
+
+                    <div class="members">
+                        <div class="member_photo_box">
+                            <img class="member_photo" src="/ChamberOfCommerce/assets/board member/Raul.jpg" alt="">
+                        </div>
+                        <div class="member_info">
+                            <h3>Raúl Pérez-Reyes Espejo</h3>
+                            <p>Director</p>
+                        </div>
+
+                    </div>
+
+                    <div class="members">
+                        <div class="member_photo_box">
+                            <img class="member_photo" src="/ChamberOfCommerce/assets/board member/Jose.jpg" alt="">
+                        </div>
+                        <div class="member_info">
+                            <h3>Jaime Augusto Aguirre Guarderas</h3>
+                            <p>Director</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo_footer">
+            <img src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+        </div>
+        <div class="vl1"></div>
+        <div class="contact_footer">
+            <h3>Contact</h3>
+            <p>📧 contact@limacommerce.com</p>
+            <p>📍 Avenue San Martin 340 - Lima</p>
+            <p>📞 +51 98765431</p>
+
+
+        </div>
+
+        <div class="vl2"></div>
+
+        <div class="social_icons">
+            <h3>Social Media</h3>
+            <a target="_blank" href="https://www.facebook.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.whatsapp.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/whatsapp.png" alt="whatsapp"></a>
+
+        </div>
+        <p class="info">
+            &copy; <span id="year"></span> | Lima Chamber Of Commerce | Attributions | Leo Meza
+            Mancilla
+        </p>
+        <p class="date">Last updated: <span id="date_time"></span></p>
+
+    </footer>
+
+
+    <script src="/ChamberOfCommerce/js/all.js"></script>
+    
+
+
+</body>
+
+</html>

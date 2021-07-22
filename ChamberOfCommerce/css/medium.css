@@ -1,0 +1,38 @@
+@media screen and (max-width: 1300px) {
+
+
+.aboutus_grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.aboutus_text{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.aboutus_text img {
+
+    float: none;
+    max-width: 100%;
+    margin:0;
+    /* max-width: 300px;
+    margin: 0 0 0 10px */
+}
+.events_grid{
+    display: flex;
+    justify-content: center;
+}
+
+.joinus_invitation{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+}

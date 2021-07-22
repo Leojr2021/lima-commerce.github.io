@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lima-Chamber Of Commerce" />
+    <title>Lima-Chamber Of Commerce</title>
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/large.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/medium.css" />
+    <link rel="stylesheet" href="/ChamberOfCommerce/css/small.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <img id="logo_nav" src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li class="hamburger">
+                <a href="#" onclick="toggleMenu ()">&#9776; Menu</a>
+            </li>
+            <li class="nav-item ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/ChamberOfCommerce/city.html">Lima</a>
+            </li>
+            <li class="nav-item active">
+                <a href="/ChamberOfCommerce/join.html">Join</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/directory.html">Directory</a>
+            </li>
+            <li class="nav-item">
+                <a href="/ChamberOfCommerce/contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <div class="join_content">
+            <div class="join_banner">
+            <img src="/ChamberOfCommerce/assets/joinus.jpg" alt="join us">
+        </div>
+            <form target="_self" action="">
+
+                <div class="form_join_grid">
+                    <div class="join_personal_info">
+
+                        <h3>Your Information</h3>
+
+
+                        <label for="fname">First Name</label><br>
+                        <input id="fname" type="text" name="fname" required="required" minlength="3"
+                            pattern="[A-Za-z]{3,}" placeholder="Full Name">
+                        <br>
+
+
+                        <label for="lname">Last Name</label><br>
+                        <input id="lname" type="text" name="lname" required="required" minlength="3"
+                            pattern="[A-Za-z]{3,}" placeholder="Last Name">
+                        <br>
+
+
+                        <label for="title">Title</label><br>
+                        <input id="title" type="text" name="title" minlength="2" pattern="[A-Za-z]{2,}"
+                            placeholder="Title">
+                        <br>
+
+                        <label for="email">Email</label><br>
+                        <input id="email" type="email" name="email" required="required"
+                            placeholder="example@domain.com">
+                        <br>
+
+                        <label for="telephone">Phone</label><br>
+                        <input id="telephone" type="tel" name="telephone" placeholder="Phone Number">
+                        <br>
+
+
+
+                    </div>
+
+                    <div class="join_company_info">
+                        <h3>Company Information</h3>
+
+                        <label for="busname">Business Name</label><br>
+                        <input id="busname" type="text" name="busname" required="required" minlength="3"
+                            pattern="[A-Za-z]{3,}" placeholder="Business Name">
+                        <br>
+
+                        <label for="busaddr">Business address</label><br>
+                        <input id="busaddr" type="text" name="busaddr" minlength="5" pattern="[A-Za-z.]{5,}"
+                            placeholder="Address">
+                        <br>
+
+                        <label for="busweb">Business website</label><br>
+                        <input id="busweb" type="text" name="busweb" minlength="5" pattern="[A-Za-z./]{5,}"
+                            placeholder="website">
+                        <br>
+
+                        <label for="busdescrption">Business description </label><br>
+                        <textarea id="busdescrption" name="busdescrption"
+                            placeholder="Your comments goes here..."></textarea>
+                        <br>
+
+
+
+
+                    </div>
+
+
+
+                    <div class="membership_plan">
+
+                        <h2>Membership plans</h2>
+
+                        <div class="plans_grid">
+
+                            <div class=" plans_box">
+                                <div class="top_plan no_profit">
+                                    <h2>Non-profit plan</h2>
+                                    <h1>$ 100</h1>
+                                    <p>per year</p>
+                                </div>
+                                <div class="details_plan">
+                                    <p>✔ Admittance to events. </p>
+                                    <p>✔ Visibility and contact with potential employers in the government.</p>
+
+                                </div>
+                            </div>
+                            <div class=" plans_box">
+                                <div class="top_plan bronze">
+                                    <h2>Bronze plan</h2>
+                                    <h1>$ 200</h1>
+                                    <p>per year</p>
+                                </div>
+                                <div class="details_plan ">
+                                    <p>✔ Representative receive discounted price for signature & educational events. </p>
+                                    <p>✔ Virtual consulting for business plan.</p>
+                                        
+                                    
+                                </div>
+                            </div>
+                            <div class=" plans_box">
+                                <div class="top_plan silver">
+                                    <h2>Silver</h2>
+                                    <h1>$ 400</h1>
+                                    <p>per year</p>
+                                </div>
+                                <div class="details_plan">
+                                    <p>✔ Representative receive discounted price for signature & educational events </p>
+                                    <p>✔ Virtual consulting for business plan.</p>
+                                        
+                                    
+                                </div>
+                            </div>
+                            <div class=" plans_box">
+                                <div class="top_plan gold">
+                                    <h2>Gold</h2>
+                                    <h1>$ 1000</h1>
+                                    <p>per year</p>
+                                </div>
+                                <div class="details_plan">
+                                    <p>✔ Connection with community leaders.</p>
+                                    
+                                    <p>✔ Unlimited job posts.</p>
+                                    <p>✔ 500 usd level sponsorship for events.</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="title_checkpoint_plan">
+                        <h1>Which plan do you prefer?</h1>
+                    </div>
+                    <div class="checkpoint_plan">
+                        
+                        <div class="content_label">
+                        <!-- <label for=""></label> -->
+                        <div class="no_profit label_plans"><label class="checkpoint_plan_label"><input type="radio" name="danger" value="yes">Non-profit plan</label></div>
+                        <div class="bronze label_plans"><label class="checkpoint_plan_label"><input type="radio" name="danger" value="maybe">Bronze plan</label>
+                        </div>
+                        <div class="silver label_plans"><label class="checkpoint_plan_label"><input type="radio" name="danger" value="no">Silver</label></div>
+                        <div class="gold label_plans"><label class="checkpoint_plan_label"><input type="radio" name="danger" value="no">Gold</label></div>
+                        </div>
+                    </div>
+
+                    <div class="join_submit_box">
+                        
+                        <br>
+
+                        <input id="submit_join" class="submitButton_join" type="submit" name="submit" value="Join now!">
+                    </div>
+                </div>
+            </form>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo_footer">
+            <img src="/ChamberOfCommerce/assets/logo.jpg" alt="logo" />
+        </div>
+        <div class="vl1"></div>
+        <div class="contact_footer">
+            <h3>Contact</h3>
+            <p>📧 contact@limacommerce.com</p>
+            <p>📍 Avenue San Martin 340 - Lima</p>
+            <p>📞 +51 98765431</p>
+
+
+        </div>
+
+        <div class="vl2"></div>
+
+        <div class="social_icons">
+            <h3>Social Media</h3>
+            <a target="_blank" href="https://www.facebook.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.whatsapp.com"><img class="icon"
+                    src="/ChamberOfCommerce/assets/whatsapp.png" alt="whatsapp"></a>
+
+        </div>
+        <p class="info">
+            &copy; <span id="year"></span> | Lima Chamber Of Commerce | Attributions | Leo Meza
+            Mancilla
+        </p>
+        <p class="date">Last updated: <span id="date_time"></span></p>
+
+    </footer>
+
+
+    <script src="/ChamberOfCommerce/js/all.js"></script>
+    
+
+
+</body>
+
+</html>
